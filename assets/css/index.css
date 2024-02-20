@@ -1,5 +1,67 @@
+@font-face {
+    font-family: Demora;
+    src: url("../font/Demora.otf");
+}
+
+@font-face {
+    font-family: Mandalore;
+    src: url("../font/Mandalore.otf");
+}
+
 * {
     text-align: center;
     margin: 0;
     padding: 0;
+}
+
+header {
+    display: block;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .container .logo {
+    display: block;
+}
+
+header .container .logo img {
+    width: 100px;
+    padding: 20px 0;
+}
+
+header .container .links {
+    display: block;
+}
+
+header .container .links ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+
+header .container .links ul a {
+    font-family: 'Demora', 'Impact', 'monospace';
+    font-size: 23px;
+}
+
+header .container .links ul a:link {
+    text-decoration: none;
+    color: black;
+}
+
+header .container .links ul a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+header .container .links ul a:visited {
+    color: black;
 }
