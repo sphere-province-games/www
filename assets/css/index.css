@@ -8,6 +8,11 @@
     src: url("../font/Mandalore.otf");
 }
 
+@font-face {
+    font-family: OpenSans;
+    src: url("../font/OpenSans.ttf");
+}
+
 * {
     text-align: center;
     margin: 0;
@@ -92,4 +97,36 @@ header .container .links ul a:visited {
     font-family: "Mandalore";
     font-size: 200px;
     letter-spacing: 20px;
+}
+
+main {
+    display: block;
+    margin: auto;
+}
+
+main .main-container {
+    margin: 50px 300px;
+}
+
+main .main-container .main-title {
+    display: flex;
+    flex-direction: column;
+}
+
+main .main-container .main-title #title-text {
+    font-family: "Demora";
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+main .main-container .main-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main .main-container .main-description #subtitle-text {
+    font-family: "OpenSans";
+    font-size: 22px;
 }
