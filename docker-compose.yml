@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  php:
+    container_name: website
+    image: missionrovee:v1
+    ports:
+      - "8000:80"
+    stdin_open: true
+    volumes:
+      - .:/var/www/html
+    build:
+        dockerfile: Dockerfile
