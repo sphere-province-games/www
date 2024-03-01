@@ -103,31 +103,91 @@ main .main-container {
     margin: 0 200px;
 }
 
-main .main-container .main-splitter {
+main .main-container .main-splitter-1 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 100px 0;
 }
 
-main .main-container .main-splitter section {
-
+main .main-container .main-splitter-1 section {
+    margin: 0 50px;
 }
 
-main .main-container .main-splitter section .main-title {
+main .main-container .main-splitter-1 section .main-title {
     font-family: "Demora";
     font-size: 40px;
 }
 
-main .main-container .main-splitter section .main-title hr {
+main .main-container .main-splitter-1 section .main-title hr {
     border: 10px solid black;
     border-radius: 20px;
     margin: 15px;
 }
 
-main .main-container .main-splitter section .main-content {
+main .main-container .main-splitter-1 section .main-content {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.5em;
     line-height: 1.5em;
     vertical-align: middle;
     text-align: center;
+}
+
+main .main-container .main-splitter-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 100px 0;
+}
+
+main .main-container .main-splitter-2 section {
+    margin: 0 50px;
+}
+
+main .main-container .main-splitter-2 section .main-title {
+    font-family: "Demora";
+    font-size: 40px;
+}
+
+main .main-container .main-splitter-2 section .main-title hr {
+    border: 10px solid black;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+main .main-container .main-splitter-2 section .main-content {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    vertical-align: middle;
+    text-align: center;
+}
+
+main .main-container .main-faq {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+main .main-container .main-faq h1 {
+    font-family: "Demora";
+    font-size: 70px;
+}
+
+main .main-container .main-faq section {
+    margin: 10px 0;
+}
+
+main .main-container .main-faq section h2 {
+    font-family: "Demora";
+    font-size: 30px;
+    text-align: left;
+}
+
+main .main-container .main-faq section p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    text-align: left;
 }
