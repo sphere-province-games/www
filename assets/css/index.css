@@ -206,3 +206,42 @@ main .main-container .main-faq section p {
     font-size: 1.5em;
     text-align: left;
 }
+
+main .main-container .main-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+main .main-container .main-block-line {
+
+}
+
+main .main-container .main-block .factsheet-container {
+    width: 30%;
+}
+
+main .main-container .main-block .factsheet-container .fact {
+    margin: 10px 0;
+}
+
+main .main-container .main-block .factsheet-container .fact h3 {
+    text-align: left;
+}
+
+main .main-container .main-block .factsheet-container .fact p {
+    text-align: left;
+}
+
+main .main-container .main-block .description-container {
+    width: 70%;
+    margin: 10px 0;
+}
+
+main .main-container .main-block .description-container h3 {
+    text-align: left;
+}
+
+main .main-container .main-block .description-container p {
+    text-align: left;
+}
