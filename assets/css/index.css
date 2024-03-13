@@ -8,6 +8,11 @@
     src: url("../font/Mandalore.otf");
 }
 
+@font-face {
+    font-family: OpenSans;
+    src: url("../font/OpenSans.ttf");
+}
+
 * {
     text-align: center;
     margin: 0;
@@ -131,6 +136,16 @@ main .main-container .main-splitter-1 section .main-content {
     line-height: 1.5em;
     vertical-align: middle;
     text-align: center;
+}
+
+main .main-container .main-splitter-1 section .main-content ul {
+    display: inline-block;
+    text-align: left !important;
+}
+
+main .main-container .main-splitter-1 section .main-content li {
+    margin-left: 10px;
+    text-align: left;
 }
 
 main .main-container .main-splitter-2 {
