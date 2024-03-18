@@ -93,5 +93,20 @@
             </main>
         </div>
         <div id="footer"></div>
+        <script>
+            function openMenu() {
+                const linksElement = document.querySelector('.links');
+    
+                if (window.getComputedStyle(linksElement, null).display == "none") {
+                    document.getElementById('toggleMenu').style.display = 'flex';
+                    document.getElementById('toggleLogo').style.opacity = '0%';
+                }
+            }
+
+            function closeMenu() {
+                document.getElementById('toggleMenu').style.display = 'none';
+                document.getElementById('toggleLogo').style.opacity = '100%';
+            }
+        </script>
     </body>
 </html>

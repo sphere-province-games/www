@@ -277,7 +277,7 @@ main .main-container .main-block .description-container p {
     }
 
     header .menu {
-        display: flex;
+        display: none;
         position: absolute;
         top: 35px;
         width: 100%;
@@ -292,11 +292,11 @@ main .main-container .main-block .description-container p {
         scale: 2;
     }
 
-    header .menu .links {
+    header .menu .menu-links {
         display: block;
     }
     
-    header .menu .links ul {
+    header .menu .menu-links ul {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -305,22 +305,22 @@ main .main-container .main-block .description-container p {
         gap: 10px;
     }
     
-    header .menu .links ul a {
+    header .menu .menu-links ul a {
         font-family: 'Demora', 'Impact', 'monospace';
         font-size: 23px;
     }
     
-    header .menu .links ul a:link {
+    header .menu .menu-links ul a:link {
         text-decoration: none;
         color: black;
     }
     
-    header .menu .links ul a:hover {
+    header .menu .menu-links ul a:hover {
         color: black;
         cursor: pointer;
     }
     
-    header .menu .links ul a:visited {
+    header .menu .menu-links ul a:visited {
         color: black;
     }
 }

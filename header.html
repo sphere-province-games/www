@@ -1,7 +1,7 @@
 <header>
     <div class="container">
-        <div class="logo">
-            <img src="./assets/img/StudioLogo.png"/>
+        <div class="logo" onclick="openMenu()" id="toggleLogo">
+            <img src="./assets/img/StudioLogo.png" alt="logo"/>
         </div>
         <div class="links">
             <ul>
@@ -11,11 +11,11 @@
             </ul>
         </div>
     </div>
-    <div class="menu">
-        <div class="close-btn">
+    <div class="menu" id="toggleMenu">
+        <div class="close-btn" onclick="closeMenu()">
             <i class="fa fa-times-circle" aria-hidden="true"></i>
         </div>
-        <div class="links">
+        <div class="menu-links">
             <ul>
                 <a href="index.html"><li>MissionRovee</li></a>
                 <a href="presskit.html"><li>Presskit</li></a>
