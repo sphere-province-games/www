@@ -475,7 +475,7 @@ main .main-container .main-block .description-container p {
     main .main-container .main-block {
         display: flex;
         justify-content: center;
-        flex-direction: row;
+        flex-direction: column;
     }
     
     main .main-container .main-block-line {
@@ -483,7 +483,7 @@ main .main-container .main-block .description-container p {
     }
     
     main .main-container .main-block .factsheet-container {
-        width: 30%;
+        width: 100%;
     }
     
     main .main-container .main-block .factsheet-container .fact {
@@ -499,7 +499,7 @@ main .main-container .main-block .description-container p {
     }
     
     main .main-container .main-block .description-container {
-        width: 70%;
+        width: 100%;
         margin: 10px 0;
     }
     
@@ -509,5 +509,9 @@ main .main-container .main-block .description-container p {
     
     main .main-container .main-block .description-container p {
         text-align: left;
+    }
+
+    main .main-container .main-block .videos-container iframe {
+        width: 350px;
     }
 }
