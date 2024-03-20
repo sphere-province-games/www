@@ -229,7 +229,7 @@ main .main-container .main-block .factsheet-container .fact {
     margin: 10px 0;
 }
 
-main .main-container .main-block .factsheet-container .fact h3 {
+main .main-container .main-block .factsheet-container .fact h2 {
     text-align: left;
 }
 
@@ -240,13 +240,68 @@ main .main-container .main-block .factsheet-container .fact p {
 main .main-container .main-block .description-container {
     width: 70%;
     margin: 10px 0;
+    text-align: left;
 }
 
-main .main-container .main-block .description-container h3 {
+main .main-container .main-block .description-container h2 {
     text-align: left;
 }
 
 main .main-container .main-block .description-container p {
+    text-align: left;
+}
+
+main .main-container .main-block .description-container ul {
+    display: inline-block;
+    text-align: left;
+    margin-left: 30px;
+}
+
+main .main-container .main-block .videos-container {
+    width: 70%;
+    margin: 10px 0;
+    text-align: left;
+}
+
+main .main-container .main-block .videos-container iframe {
+    width: 100%;
+}
+
+main .main-container .main-block .images-container {
+    width: 70%;
+    margin: 10px 0;
+    text-align: left;
+}
+
+main .main-container .main-block .logo-icon-container {
+    width: 70%;
+    margin: 10px 0;
+    text-align: left;
+}
+
+main .main-container .main-block .logo-icon-container img {
+    width: 200px;
+}
+
+main .main-container .main-block .about-container {
+    width: 70%;
+    margin: 10px 0;
+    text-align: left;
+}
+
+main .main-container .main-block .about-container .content-block {
+    margin: 10px 0;
+    text-align: left;
+}
+
+main .main-container .main-block .credits-container {
+    width: 70%;
+    margin: 10px 0;
+    text-align: left;
+}
+
+main .main-container .main-block .credits-container .content-block {
+    margin: 10px 0;
     text-align: left;
 }
 
@@ -490,7 +545,7 @@ main .main-container .main-block .description-container p {
         margin: 10px 0;
     }
     
-    main .main-container .main-block .factsheet-container .fact h3 {
+    main .main-container .main-block .factsheet-container .fact h2 {
         text-align: left;
     }
     
@@ -501,14 +556,21 @@ main .main-container .main-block .description-container p {
     main .main-container .main-block .description-container {
         width: 100%;
         margin: 10px 0;
+        text-align: left;
     }
     
-    main .main-container .main-block .description-container h3 {
+    main .main-container .main-block .description-container h2 {
         text-align: left;
     }
     
     main .main-container .main-block .description-container p {
         text-align: left;
+    }
+
+    main .main-container .main-block .description-container ul {
+        display: inline-block;
+        text-align: left;
+        margin-left: 10px;
     }
 
     main .main-container .main-block .videos-container iframe {
