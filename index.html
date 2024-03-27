@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sphere Province Games</title>
         <link rel="icon" href="./assets/img/StudioLogo.png"/>
+        <link rel="stylesheet" href="./assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
         <style type="text/css">
             @import url("assets/css/index.css");
         </style>
@@ -92,5 +93,20 @@
             </main>
         </div>
         <div id="footer"></div>
+        <script>
+            function openMenu() {
+                const linksElement = document.querySelector('.links');
+    
+                if (window.getComputedStyle(linksElement, null).display == "none") {
+                    document.getElementById('toggleMenu').style.display = 'flex';
+                    document.getElementById('toggleLogo').style.opacity = '0%';
+                }
+            }
+
+            function closeMenu() {
+                document.getElementById('toggleMenu').style.display = 'none';
+                document.getElementById('toggleLogo').style.opacity = '100%';
+            }
+        </script>
     </body>
 </html>
