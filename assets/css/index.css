@@ -294,6 +294,15 @@ main .main-container .main-block .about-container .content-block {
     text-align: left;
 }
 
+main .main-container .main-block .about-container .content-block h3 {
+    text-align: left;
+    margin-top: 15px;
+}
+
+main .main-container .main-block .about-container .content-block p {
+    text-align: left;
+}
+
 main .main-container .main-block .credits-container {
     width: 70%;
     margin: 10px 0;
@@ -302,6 +311,15 @@ main .main-container .main-block .credits-container {
 
 main .main-container .main-block .credits-container .content-block {
     margin: 10px 0;
+    text-align: left;
+}
+
+main .main-container .main-block .credits-container .content-block h3 {
+    text-align: left;
+    margin-top: 15px;
+}
+
+main .main-container .main-block .credits-container .content-block p {
     text-align: left;
 }
 
@@ -428,7 +446,7 @@ main .main-container .main-block .credits-container .content-block {
     }
     
     main .main-container .main-splitter-1 section {
-        margin: 0 50px;
+        margin: 0 10px;
     }
     
     main .main-container .main-splitter-1 section .main-title {
@@ -472,7 +490,7 @@ main .main-container .main-block .credits-container .content-block {
     }
     
     main .main-container .main-splitter-2 section {
-        margin: 0 50px;
+        margin: 0 10px;
     }
     
     main .main-container .main-splitter-2 section .main-title {
@@ -573,7 +591,28 @@ main .main-container .main-block .credits-container .content-block {
         margin-left: 10px;
     }
 
+    main .main-container .main-block .videos-container {
+        width: unset;
+        text-align: unset;
+    }
+
     main .main-container .main-block .videos-container iframe {
         width: 350px;
+    }
+
+    main .main-container .main-block .images-container {
+        width: unset;
+    }
+
+    main .main-container .main-block .logo-icon-container {
+        width: unset;
+    }
+
+    main .main-container .main-block .about-container {
+        width: unset;
+    }
+
+    main .main-container .main-block .credits-container {
+        width: unset;
     }
 }
