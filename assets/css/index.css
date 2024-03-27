@@ -273,6 +273,10 @@ main .main-container .main-block .images-container {
     text-align: left;
 }
 
+main .main-container .main-block .images-container img {
+    width: 400px;
+}
+
 main .main-container .main-block .logo-icon-container {
     width: 70%;
     margin: 10px 0;
