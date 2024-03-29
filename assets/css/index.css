@@ -35,8 +35,8 @@ header .container .logo {
 }
 
 header .container .logo img {
-    width: 100px;
-    padding: 20px 0;
+    width: 150px;
+    padding: 10px 0;
 }
 
 header .container .links {
@@ -345,8 +345,8 @@ main .main-container .main-block .credits-container .content-block p {
     }
     
     header .container .logo img {
-        width: 100px;
-        padding: 20px 0;
+        width: 150px;
+        padding: 10px 0;
     }
     
     header .container .links {
