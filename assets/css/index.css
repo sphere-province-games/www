@@ -231,10 +231,13 @@ main .main-container .main-block .factsheet-container .fact {
 
 main .main-container .main-block .factsheet-container .fact h2 {
     text-align: left;
+    font-family: 'Demora', 'Impact', 'monospace';
 }
 
 main .main-container .main-block .factsheet-container .fact p {
     text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
 }
 
 main .main-container .main-block .description-container {
@@ -245,22 +248,33 @@ main .main-container .main-block .description-container {
 
 main .main-container .main-block .description-container h2 {
     text-align: left;
+    font-family: 'Demora', 'Impact', 'monospace';
+    font-size: 30px;
 }
 
 main .main-container .main-block .description-container p {
     text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
 }
 
 main .main-container .main-block .description-container ul {
     display: inline-block;
     text-align: left;
     margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
 }
 
 main .main-container .main-block .videos-container {
     width: 70%;
     margin: 10px 0;
     text-align: left;
+}
+
+main .main-container .main-block .videos-container h2 {
+    font-family: 'Demora', 'Impact', 'monospace';
+    font-size: 40px;
 }
 
 main .main-container .main-block .videos-container iframe {
@@ -273,6 +287,11 @@ main .main-container .main-block .images-container {
     text-align: left;
 }
 
+main .main-container .main-block .images-container h2 {
+    font-family: 'Demora', 'Impact', 'monospace';
+    font-size: 40px;
+}
+
 main .main-container .main-block .images-container img {
     width: 400px;
 }
@@ -281,6 +300,11 @@ main .main-container .main-block .logo-icon-container {
     width: 70%;
     margin: 10px 0;
     text-align: left;
+}
+
+main .main-container .main-block .logo-icon-container h2 {
+    font-family: 'Demora', 'Impact', 'monospace';
+    font-size: 40px;
 }
 
 main .main-container .main-block .logo-icon-container img {
@@ -293,6 +317,11 @@ main .main-container .main-block .about-container {
     text-align: left;
 }
 
+main .main-container .main-block .about-container h2 {
+    font-family: 'Demora', 'Impact', 'monospace';
+    font-size: 40px;
+}
+
 main .main-container .main-block .about-container .content-block {
     margin: 10px 0;
     text-align: left;
@@ -300,17 +329,26 @@ main .main-container .main-block .about-container .content-block {
 
 main .main-container .main-block .about-container .content-block h3 {
     text-align: left;
+    font-family: 'Demora', 'Impact', 'monospace';
+    font-size: 30px;
     margin-top: 15px;
 }
 
 main .main-container .main-block .about-container .content-block p {
     text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
 }
 
 main .main-container .main-block .credits-container {
     width: 70%;
     margin: 10px 0;
     text-align: left;
+}
+
+main .main-container .main-block .credits-container h2 {
+    font-family: 'Demora', 'Impact', 'monospace';
+    font-size: 40px;
 }
 
 main .main-container .main-block .credits-container .content-block {
@@ -320,11 +358,15 @@ main .main-container .main-block .credits-container .content-block {
 
 main .main-container .main-block .credits-container .content-block h3 {
     text-align: left;
+    font-family: 'Demora', 'Impact', 'monospace';
+    font-size: 30px;
     margin-top: 15px;
 }
 
 main .main-container .main-block .credits-container .content-block p {
     text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
 }
 
 /* FOR HEADER */
