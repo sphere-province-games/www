@@ -1,24 +1,3 @@
-@font-face {
-    font-family: Demora;
-    src: url("../font/Demora.otf");
-}
-
-@font-face {
-    font-family: Mandalore;
-    src: url("../font/Mandalore.otf");
-}
-
-@font-face {
-    font-family: OpenSans;
-    src: url("../font/OpenSans.ttf");
-}
-
-* {
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
 header {
     display: block;
 }
@@ -40,39 +19,55 @@ header .container .logo img {
 }
 
 header .container .links {
-    display: block;
-}
-
-header .container .links ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    list-style: none;
-}
-
-header .container .links ul a {
-    font-family: 'Demora', 'Impact', 'monospace';
-    font-size: 23px;
-}
-
-header .container .links ul a:link {
-    text-decoration: none;
-    color: black;
-}
-
-header .container .links ul a:hover {
-    color: black;
-    cursor: pointer;
-}
-
-header .container .links ul a:visited {
-    color: black;
+    display: none;
 }
 
 header .menu {
     display: none;
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+header .menu .close-btn {
+    position: absolute;
+    top: 35px;
+    left: 30px;
+    scale: 2;
+}
+
+header .menu .menu-links {
+    display: block;
+}
+
+header .menu .menu-links ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+
+header .menu .menu-links ul a {
+    font-family: 'Demora', 'Impact', 'monospace';
+    font-size: 23px;
+}
+
+header .menu .menu-links ul a:link {
+    text-decoration: none;
+    color: black;
+}
+
+header .menu .menu-links ul a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+header .menu .menu-links ul a:visited {
+    color: black;
 }
 
 .content {
@@ -86,7 +81,7 @@ header .menu {
 
 .content .content-title #title-image {
     width: 100%;
-    height: 550px;
+    height: 350px;
 }
 
 .content .content-title .content-title-text {
@@ -99,8 +94,8 @@ header .menu {
 .content .content-title .content-title-text #title-text {
     color: white;
     font-family: "Mandalore";
-    font-size: 200px;
-    letter-spacing: 20px;
+    font-size: 70px;
+    letter-spacing: 5px;
 }
 
 main {
@@ -109,18 +104,16 @@ main {
 }
 
 main .main-container {
-    margin: 0 200px;
+    margin: unset;
 }
 
 main .main-container .main-splitter-1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display: block;
     margin: 100px 0;
 }
 
 main .main-container .main-splitter-1 section {
-    margin: 0 50px;
+    margin: 0 10px;
 }
 
 main .main-container .main-splitter-1 section .main-title {
@@ -142,6 +135,10 @@ main .main-container .main-splitter-1 section .main-content {
     text-align: center;
 }
 
+main .main-container .main-splitter-1 section .main-content img {
+    width: 275px;
+}
+
 main .main-container .main-splitter-1 section .main-content ul {
     display: inline-block;
     text-align: left !important;
@@ -153,14 +150,14 @@ main .main-container .main-splitter-1 section .main-content li {
 }
 
 main .main-container .main-splitter-2 {
-    display: flex;
+    display: block;
     flex-direction: row-reverse;
     align-items: center;
     margin: 100px 0;
 }
 
 main .main-container .main-splitter-2 section {
-    margin: 0 50px;
+    margin: 0 10px;
 }
 
 main .main-container .main-splitter-2 section .main-title {
@@ -180,6 +177,10 @@ main .main-container .main-splitter-2 section .main-content {
     line-height: 1.5em;
     vertical-align: middle;
     text-align: center;
+}
+
+main .main-container .main-splitter-2 section .main-content img {
+    width: 275px;
 }
 
 main .main-container .main-faq {
@@ -214,7 +215,7 @@ main .main-container .main-faq section p {
 main .main-container .main-block {
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 main .main-container .main-block-line {
@@ -222,7 +223,7 @@ main .main-container .main-block-line {
 }
 
 main .main-container .main-block .factsheet-container {
-    width: 30%;
+    width: 100%;
 }
 
 main .main-container .main-block .factsheet-container .fact {
@@ -231,144 +232,53 @@ main .main-container .main-block .factsheet-container .fact {
 
 main .main-container .main-block .factsheet-container .fact h2 {
     text-align: left;
-    font-family: 'Demora', 'Impact', 'monospace';
 }
 
 main .main-container .main-block .factsheet-container .fact p {
     text-align: left;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1rem;
 }
 
 main .main-container .main-block .description-container {
-    width: 70%;
+    width: 100%;
     margin: 10px 0;
     text-align: left;
 }
 
 main .main-container .main-block .description-container h2 {
     text-align: left;
-    font-family: 'Demora', 'Impact', 'monospace';
-    font-size: 30px;
 }
 
 main .main-container .main-block .description-container p {
     text-align: left;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.2rem;
 }
 
 main .main-container .main-block .description-container ul {
     display: inline-block;
     text-align: left;
-    margin-left: 30px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.2rem;
+    margin-left: 10px;
 }
 
 main .main-container .main-block .videos-container {
-    width: 70%;
-    margin: 10px 0;
-    text-align: left;
-}
-
-main .main-container .main-block .videos-container h2 {
-    font-family: 'Demora', 'Impact', 'monospace';
-    font-size: 40px;
+    width: unset;
+    text-align: unset;
 }
 
 main .main-container .main-block .videos-container iframe {
-    width: 100%;
+    width: 350px;
 }
 
 main .main-container .main-block .images-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 70%;
-    margin: 10px 0;
-    text-align: left;
-}
-
-main .main-container .main-block .images-container h2 {
-    font-family: 'Demora', 'Impact', 'monospace';
-    font-size: 40px;
-}
-
-main .main-container .main-block .images-container img {
-    width: 400px;
-    margin: 10px 0;
+    width: unset;
 }
 
 main .main-container .main-block .logo-icon-container {
-    width: 70%;
-    margin: 10px 0;
-    text-align: left;
-}
-
-main .main-container .main-block .logo-icon-container h2 {
-    font-family: 'Demora', 'Impact', 'monospace';
-    font-size: 40px;
-}
-
-main .main-container .main-block .logo-icon-container img {
-    width: 200px;
+    width: unset;
 }
 
 main .main-container .main-block .about-container {
-    width: 70%;
-    margin: 10px 0;
-    text-align: left;
-}
-
-main .main-container .main-block .about-container h2 {
-    font-family: 'Demora', 'Impact', 'monospace';
-    font-size: 40px;
-}
-
-main .main-container .main-block .about-container .content-block {
-    margin: 10px 0;
-    text-align: left;
-}
-
-main .main-container .main-block .about-container .content-block h3 {
-    text-align: left;
-    font-family: 'Demora', 'Impact', 'monospace';
-    font-size: 30px;
-    margin-top: 15px;
-}
-
-main .main-container .main-block .about-container .content-block p {
-    text-align: left;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.2rem;
+    width: unset;
 }
 
 main .main-container .main-block .credits-container {
-    width: 70%;
-    margin: 10px 0;
-    text-align: left;
-}
-
-main .main-container .main-block .credits-container h2 {
-    font-family: 'Demora', 'Impact', 'monospace';
-    font-size: 40px;
-}
-
-main .main-container .main-block .credits-container .content-block {
-    margin: 10px 0;
-    text-align: left;
-}
-
-main .main-container .main-block .credits-container .content-block h3 {
-    text-align: left;
-    font-family: 'Demora', 'Impact', 'monospace';
-    font-size: 30px;
-    margin-top: 15px;
-}
-
-main .main-container .main-block .credits-container .content-block p {
-    text-align: left;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.2rem;
+    width: unset;
 }
