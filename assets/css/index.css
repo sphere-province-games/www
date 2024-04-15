@@ -300,21 +300,6 @@ main .main-container .main-block .images-container img {
     margin: 10px 0;
 }
 
-main .main-container .main-block .logo-icon-container {
-    width: 70%;
-    margin: 10px 0;
-    text-align: left;
-}
-
-main .main-container .main-block .logo-icon-container h2 {
-    font-family: 'Demora', 'Impact', 'monospace';
-    font-size: 40px;
-}
-
-main .main-container .main-block .logo-icon-container img {
-    width: 200px;
-}
-
 main .main-container .main-block .about-container {
     width: 70%;
     margin: 10px 0;
