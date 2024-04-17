@@ -335,6 +335,10 @@ main .main-container .main-block .credits-container {
     text-align: left;
 }
 
+main .main-container .main-block .credits-container .content {
+    display: flex;
+}
+
 main .main-container .main-block .credits-container h2 {
     font-family: 'Demora', 'Impact', 'monospace';
     font-size: 40px;
@@ -343,6 +347,13 @@ main .main-container .main-block .credits-container h2 {
 main .main-container .main-block .credits-container .content-block {
     margin: 10px 0;
     text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+main .main-container .main-block .credits-container .content-block > * {
+    flex: 1;
 }
 
 main .main-container .main-block .credits-container .content-block h3 {

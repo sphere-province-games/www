@@ -278,3 +278,7 @@ main .main-container .main-block .about-container {
 main .main-container .main-block .credits-container {
     width: unset;
 }
+
+main .main-container .main-block > * {
+    padding-left: 0em;
+}
